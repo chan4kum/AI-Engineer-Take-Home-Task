@@ -1,0 +1,35 @@
+project:
+  data:
+    input_file: 'data/input/uniprot_sequences.csv'
+    output_file: 'data/processed/processed_uniprot_sequences.csv'
+  
+  amino_acids: 
+    - 'A'
+    - 'B'
+    - 'C'
+    - 'D'
+    - 'E'
+    - 'F'
+    - 'G'
+    - 'H'
+    - 'I'
+    - 'J'
+    - 'K'
+    - 'L'
+    - 'M'
+    - 'N'
+    - 'O'
+    - 'P'
+    - 'Q'
+    - 'R'
+    - 'S'
+    - 'T'
+    - 'V'
+    - 'W'
+    - 'Y'
+    - 'X'
+  
+  extractors:
+    one_hot:
+      max_length: 100
+    letter_composition: {}
